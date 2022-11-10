@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PHP</title>
+</head>
+<body>
+    <div class="all">
+       
+        <div class="form">
+            <form action="PHP/alta_usuarios.php" method="post">
+                <br>
+                <div class="title">
+                    Alta  Usuarios  
+                    <button type ="button" id = "ver">Tabla</button>
+                </div>
+                <div class="name">
+                    
+                    <input type="text" name="nombre" id="" placeholder="Nombre" required>
+
+                </div   >
+                <div class="app"  >
+                     <input type="text" name="Ap" id="" placeholder="Apellido Paterno" required>
+                     <input type="text" name="Am" id="" placeholder="Apellido Materno " required>
+                </div>
+                <div class="tel">
+                    <input type="text" name="telefono" id="" placeholder="Telefono" required>
+                </div>
+                <div class="correo">
+                    <input type="email" name="correo" id="" placeholder="Correo" required>
+                </div>
+                <div class="regis">
+                    <input type="text" name="Usuario" id="" placeholder="Usuario" required>
+                    <input type="password" name="pass" id="pass" placeholder="Contrase&ntilde;a" required>
+                    <input type="password" name="pass2" id="pass" placeholder="Contrase&ntilde;a" required>
+
+                    <br>
+                    <button id="btn_pass">ver</button>
+                </div>
+                <br>
+                <input type="submit" value="Enviar"> 
+                <input type="reset" value="Cancelar">
+            </form>
+            
+        </div>
+    </div>
+    <script src ="js/script.js"></script>
+</body>
+</html>
